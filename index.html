@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar</title>
+  </head>
+  <body>
+    <form>
+      <label for="searchTerm">Search:</label>
+      <input type="text" name="searchTerm" id="searchBar" />
+      <button data-id="1" class="btnSubmit" type="submit">1 Result</button>
+      <button data-id="5" class="btnSubmit" type="submit">5 Results</button>
+      <button data-id="10" class="btnSubmit" type="submit">10 Results</button>
+      <button data-id="15" class="btnSubmit" type="submit">15 Results</button>
+    </form>
+    <br />
+    <div id="gifArea"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
